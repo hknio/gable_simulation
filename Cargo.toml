@@ -21,8 +21,12 @@ rand = "0.8.5"
 csv = "1.3.0"
 
 [[bin]]
-name = "simulation"
-path = "bin/simulation.rs"
+name = "current_solution"
+path = "bin/current_solution.rs"
+
+[[bin]]
+name = "perfect_solution"
+path = "bin/perfect_solution.rs"
 
 [profile.release]
 debug = true

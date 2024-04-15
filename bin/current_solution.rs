@@ -9,7 +9,7 @@ fn main() {
     execute_within_environment(|mut simulation| {
         // select top 3 nf's with most lsu to be withdrawn last
         let mut nfts = simulation.get_lsu_claims(false);
-        nfts.sort_by(|k1, v1, k2, v2| v2.0.cmp(&v1.0));
+        nfts.sort_by(|_, v1, _, v2| v2.0.cmp(&v1.0));
         let three_nfts_with_most_lsu = nfts.into_iter().take(3).collect::<Vec<_>>();
 
         println!("Three NFTs with most LSU: ");
@@ -17,7 +17,7 @@ fn main() {
             println!("-- NFT: {:?} with LSU: {} and XRD claim: {}", nft, lsu, xrd);
         }
         
-        let mut csv = csv::Writer::from_path("simulation.csv").unwrap();
+        let mut csv = csv::Writer::from_path("current_simulation.csv").unwrap();
         csv.write_record(&["Day", "LSU locked"]).unwrap();
 
         // simulating 360 days of rewards
@@ -33,7 +33,7 @@ fn main() {
             let mut rewards = dec!(0);
             simulation.get_pending_unstakes()
                 .iter()
-                .filter(|unlock| unlock.0 <= &epoch)
+                .filter(|unlock| unlock.0 <= epoch)
                 .for_each(|(epoch, reward)| {
                     rewards += *reward;
                     simulation.claim_xrd();
@@ -61,7 +61,7 @@ fn main() {
 
                 let mut randomly_selected_nfts = Vec::new();
                 for (nft, (lsu, xrd)) in random_nfts {
-                    if pool_liqudity > dec!(0) && xrd <= owner_liqudity {
+                    if pool_liqudity > dec!(0) && xrd <= pool_liqudity + owner_liqudity {
                         randomly_selected_nfts.push((nft, lsu, xrd));
                         pool_liqudity -= xrd;
                     }

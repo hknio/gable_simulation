@@ -1,9 +1,11 @@
 # Gable Current Recovery Plan Simulation
 
 ## Overview
-This guide provides results of simulation of Gable current recovery plan and instructions on how to run this simulation. This process requires the latest snapshot of the radix database. Follow the steps below to correctly set up and run the simulation.
+This repository provides results of simulation of Gable current recovery plan and instructions on how to run this simulation. This process requires the latest snapshot of the radix database. Follow the steps below to correctly set up and run the simulation.
 
 The program is simulating a recovery plan which involves cooperation with top three locked LSU holders. It adds 8000 XRD a reward from validator and lets random users withdraw their NFTs with LSU. At the end of simulation, all but 3 last users are able to withdraw recover locked LSU. Due to a different issue, one NFT with smallest claim from every NFT group is skipped. This behavior can be changed by changing `simulation.get_lsu_claims(false)` argument from false to true in `bin/simulation.rs`.
+
+Additionally, the repository features a simulation of the "perfect solution" originally proposed at the end of January, designed to recover all user funds within approximately 50 days. In this scenario, the locked owner liquidity and LSU claims from user NFTs are borrowed and used as validator rewards. This allows other users to withdraw their NFTs more quickly. Once all NFTs are retrieved, the borrowed LSU will be returned. The repository currently has only a simplified version of this solution. The original proposal was significantly more complex and necessitated an additional smart contract to safely execute certain operations.
 
 ## Results of simulation (9th April 2024)
 
@@ -17,6 +19,8 @@ The simulation with this conditions is available in the file `simulation_9_04_24
 To withdraw all other NFTs from smart contract, 249 days with ~8000 XRD validator rewards each day are required. The number of LSU locked in smart contract over those days is represented by this graph:
 
 ![LSU locked over time](./graph.png)
+
+In case of perfect solution simulation, it would only take 51 days to recover all LSU locked. The results of this simulation are available in `perfect_solution_simulation.txt` file.
 
 ## Running the simulation
 
@@ -46,5 +50,6 @@ With the environment variable set, you can now run the simulation. Execute the f
 
 ```bash
 ulimit -n 65000
-cargo run --release
+cargo run --release --bin current_solution
+cargo run --release --bin perfect_solution
 ```

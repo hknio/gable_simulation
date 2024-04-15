@@ -188,15 +188,23 @@ impl<'a> GableSimulation<'a> {
         validator_state.pending_owner_stake_unit_withdrawals
     }
 
-    pub fn get_pending_unstakes(&mut self) -> BTreeMap<Epoch, Decimal> {        
+    pub fn get_pending_unstakes(&mut self) -> Vec<(Epoch, Decimal)> {        
         let gable_state = self.gable_state();
         let validator_state: ValidatorStateV1 = self.validator_state();
-        let mut ret = BTreeMap::new();
+        let mut ret = Vec::new();
         for nft in &gable_state.nft_vec {
             let nft_data: UnstakeData = self.test_runner.get_non_fungible_data(validator_state.claim_nft, nft.clone());
-            ret.insert(nft_data.claim_epoch, nft_data.claim_amount);
+            ret.push((nft_data.claim_epoch, nft_data.claim_amount));
         }
         ret
+    }
+
+    pub fn get_owner_xrd_balance(&mut self) -> Decimal {
+        self.test_runner.get_component_balance(self.gable_owner_account, XRD)
+    }
+
+    pub fn get_owner_lsu_balance(&mut self) -> Decimal {
+        self.test_runner.get_component_balance(self.gable_owner_account, self.lsu)
     }
 
     pub fn get_xrd_balance(&mut self) -> Decimal {
@@ -221,6 +229,33 @@ impl<'a> GableSimulation<'a> {
             .create_proof_from_account_of_amount(self.gable_owner_account, self.gable_owner_badge, dec!(1))
             .call_method(self.gable_component, "finish_unlock_owner_stake_units", (self.gable_validator, self.validator_owner_badge.clone()))
             .call_method(self.gable_component, "unstake", (self.gable_validator,))
+            .build()
+        ).expect_commit_success();
+    }
+
+    pub fn owner_withdraw_xrd(&mut self, amount: Decimal) {
+        self.test_runner.execute_manifest_without_auth(ManifestBuilder::new()
+            .lock_fee(self.account, dec!(10))
+            .create_proof_from_account_of_amount(self.gable_owner_account, self.gable_owner_badge, dec!(1))
+            .call_method(self.gable_component, "owner_withdraw_xrd", (amount, ))
+            .try_deposit_entire_worktop_or_abort(self.gable_owner_account, None)
+            .build()
+        ).expect_commit_success();
+    }
+
+    pub fn owner_deposit_xrd(&mut self, amount: Decimal) {
+        self.test_runner.execute_manifest_without_auth(ManifestBuilder::new()
+            .lock_fee(self.account, dec!(10))
+            .create_proof_from_account_of_amount(self.gable_owner_account, self.gable_owner_badge, dec!(1))
+            .withdraw_from_account(self.gable_owner_account, XRD, amount)
+            .take_all_from_worktop(XRD, "xrd")
+            .with_name_lookup(|builder, name_lookup| {
+                builder.call_method(
+                    self.gable_component,
+                    "owner_deposit_xrd",
+                    (name_lookup.bucket("xrd"),),
+                )
+            })
             .build()
         ).expect_commit_success();
     }
@@ -273,10 +308,27 @@ impl<'a> GableSimulation<'a> {
         ).expect_commit_success();
     }
 
-    pub fn add_validator_reward(&mut self, amount: Decimal) {
+    pub fn stake_lsu_as_owner_and_start_unlock(&mut self, account: ComponentAddress, amount: Decimal) {
         self.test_runner.execute_manifest_without_auth(ManifestBuilder::new()
-            .lock_fee(self.account, dec!(10))
-            .withdraw_from_account(self.account, XRD, amount)
+            .lock_fee(account, dec!(10))
+            .withdraw_from_account(account, self.lsu, amount)
+            .take_all_from_worktop(self.lsu, "lsu")
+            .with_name_lookup(|builder, name_lookup| {
+                builder.call_method(
+                    self.gable_validator,
+                    "lock_owner_stake_units",
+                    (name_lookup.bucket("lsu"),),
+                )
+            })            
+            .call_method(self.gable_component, "start_unlock_owner_stake_units", (amount, self.gable_validator, self.validator_owner_badge.clone()))
+            .build()
+        ).expect_commit_success();        
+    }
+
+    pub fn stake_xrd_as_owner_and_start_unlock(&mut self, account: ComponentAddress, amount: Decimal) {
+        self.test_runner.execute_manifest_without_auth(ManifestBuilder::new()
+            .lock_fee(account, dec!(10))
+            .withdraw_from_account(account, XRD, amount)
             .take_all_from_worktop(XRD, "xrd")
             .with_name_lookup(|builder, name_lookup| {
                 builder.call_method(
@@ -295,7 +347,11 @@ impl<'a> GableSimulation<'a> {
             })            
             .call_method(self.gable_component, "start_unlock_owner_stake_units", (amount, self.gable_validator, self.validator_owner_badge.clone()))
             .build()
-        ).expect_commit_success();
+        ).expect_commit_success();        
+    }
+
+    pub fn add_validator_reward(&mut self, amount: Decimal) {
+       self.stake_xrd_as_owner_and_start_unlock(self.account, amount);
     }
 
 

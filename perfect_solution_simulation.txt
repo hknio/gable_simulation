@@ -1,0 +1,718 @@
+NFT with most LSU: #714#, LSU: 1000000, XRD claim: 64522.435190263402191751
+STEP 1: Recover owner liquidity and use it as validator reward
+-- Owner liquidity: 398643.294151955001665533, Pool liquidity: 395977.040037105002013898, Owner account XRD balance: 690.34540011546
+-- We need -2666.254114849999651635 XRD rewards to recover owner liquidity
+-- Day: 1, epoch 88523, LSU locked in contract: 12073158.00548, new validator rewards: 15070.592841806886406983, pool liqudity: 411047.632878911888420881
+-- Pool liquidity (398643.294151955001665533) is higher than owner liquidity (411047.632878911888420881), we can recover owner liquidity
+-- Gable Owner account XRD balance: 399333.639552070461665533, LSU balance: 0
+-- Adding 399233.639552070461665533 XRD rewards to the pool by using Gable Owner account XRD
+STEP 2: Recover users LSU and use them as validator reward till
+-- Claiming XRD reward: 3759.519473113171338278
+-- Claiming XRD reward: 3788.551355074533256449
+-- Day: 2, epoch 88811, LSU locked in contract: 12073158.00548, new validator rewards: 7548.070828187704594727, pool liqudity: 19952.409555144591350073
+-- Withdrawing NFT: #1078# with LSU: 290000 and XRD claim: 14213.474443678382629612
+-- Withdrawing NFT: #991# with LSU: 100000 and XRD claim: 5431.240168420273658112
+-- Withdrawing NFT: #1190# with LSU: 6000 and XRD claim: 282.071761545942814721
+-- Withdrawing NFT: #1131# with LSU: 502 and XRD claim: 24.135504675209094011
+-- Using recovered 396502 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 3779.156156309649849676
+-- Claiming XRD reward: 3799.13154757627562963
+-- Day: 3, epoch 89099, LSU locked in contract: 11676656.00548, new validator rewards: 7578.287703885925479306, pool liqudity: 7579.775380710708610298
+-- Withdrawing NFT: #1175# with LSU: 151250 and XRD claim: 7247.466215517034530433
+-- Withdrawing NFT: #1109# with LSU: 6324.4106 and XRD claim: 312.557475943526991403
+-- Using recovered 157574.4106 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 3801.54111877667136537
+-- Claiming XRD reward: 3813.570071924271199409
+-- Day: 4, epoch 89387, LSU locked in contract: 11519081.59488, new validator rewards: 7615.111190700942564779, pool liqudity: 7634.86287995108964566
+-- Withdrawing NFT: #862# with LSU: 100000 and XRD claim: 6156.063003976637790462
+-- Withdrawing NFT: #1198# with LSU: 30000 and XRD claim: 1440.229213313999410003
+-- Withdrawing NFT: #818# with LSU: 626 and XRD claim: 38.536954404893509656
+-- Using recovered 130626 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 3825.479046251829973007
+-- Claiming XRD reward: 3820.320916165735442443
+-- Day: 5, epoch 89675, LSU locked in contract: 11388455.59488, new validator rewards: 7645.79996241756541545, pool liqudity: 7645.833670673124343371
+-- Withdrawing NFT: #933# with LSU: 100000 and XRD claim: 6021.321037635508307014
+-- Withdrawing NFT: #1233# with LSU: 28000 and XRD claim: 1346.424869041386448621
+-- Withdrawing NFT: #979# with LSU: 5000 and XRD claim: 275.61175846891607518
+-- Using recovered 133000 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 3812.173137108554297196
+-- Claiming XRD reward: 3796.345884734824420046
+-- Day: 6, epoch 89963, LSU locked in contract: 11255455.59488, new validator rewards: 7608.519021843378717242, pool liqudity: 7610.995027370692222146
+-- Withdrawing NFT: #1221# with LSU: 100000 and XRD claim: 4876.258745435053016574
+-- Withdrawing NFT: #1057# with LSU: 50000 and XRD claim: 2607.59099794241297477
+-- Withdrawing NFT: #1180# with LSU: 2500 and XRD claim: 124.81391932168589613
+-- Using recovered 152500 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 3782.915561250789273902
+-- Day: 7, epoch 90251, LSU locked in contract: 11102955.59488, new validator rewards: 3782.915561250789273902, pool liqudity: 3785.246925922329593353
+-- Withdrawing NFT: #725# with LSU: 50000 and XRD claim: 3315.713250444652516665
+-- Withdrawing NFT: #1032# with LSU: 8500 and XRD claim: 449.718959778790641147
+-- Using recovered 58500 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 11379.756017963945917757
+-- Claiming XRD reward: 0
+-- Day: 8, epoch 90539, LSU locked in contract: 11044455.59488, new validator rewards: 11379.756017963945917757, pool liqudity: 11399.570733662832349492
+-- Withdrawing NFT: #1008# with LSU: 180000 and XRD claim: 10197.997162050682694746
+-- Withdrawing NFT: #1239# with LSU: 20000 and XRD claim: 998.358051729084449119
+-- Withdrawing NFT: #1019# with LSU: 3570 and XRD claim: 196.783809850526923946
+-- Using recovered 203570 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7580.99178769185760838
+-- Claiming XRD reward: 0
+-- Day: 9, epoch 90827, LSU locked in contract: 10840885.59488, new validator rewards: 7580.99178769185760838, pool liqudity: 7587.42349772439587866
+-- Withdrawing NFT: #1195# with LSU: 100000 and XRD claim: 5144.853884151047205618
+-- Withdrawing NFT: #1111# with LSU: 40000 and XRD claim: 2139.98443087530474271
+-- Withdrawing NFT: #1120# with LSU: 5000 and XRD claim: 263.646767186684097492
+-- Withdrawing NFT: #1000# with LSU: 600 and XRD claim: 33.746381932704038087
+-- Using recovered 145600 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7698.197232531758450941
+-- Claiming XRD reward: 0
+-- Day: 10, epoch 91115, LSU locked in contract: 10695285.59488, new validator rewards: 7698.197232531758450941, pool liqudity: 7703.389266110414234315
+-- Withdrawing NFT: #1215# with LSU: 100000 and XRD claim: 5188.95899727363251359
+-- Withdrawing NFT: #775# with LSU: 30000 and XRD claim: 2042.499485187265984129
+-- Withdrawing NFT: #908# with LSU: 7300 and XRD claim: 465.051868488493205292
+-- Using recovered 137300 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7971.834751529374891343
+-- Claiming XRD reward: 0
+-- Day: 11, epoch 91403, LSU locked in contract: 10557985.59488, new validator rewards: 7971.834751529374891343, pool liqudity: 7978.713666690397411097
+-- Withdrawing NFT: #825# with LSU: 90979.74882 and XRD claim: 6045.893128638629461763
+-- Withdrawing NFT: #948# with LSU: 30000 and XRD claim: 1909.69832058868752388
+-- Using recovered 120979.74882 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7993.707493018961888586
+-- Claiming XRD reward: 0
+-- Day: 12, epoch 91691, LSU locked in contract: 10437005.84606, new validator rewards: 7993.707493018961888586, pool liqudity: 8016.829710482042302079
+-- Withdrawing NFT: #653# with LSU: 87300 and XRD claim: 6414.651387923584377635
+-- Withdrawing NFT: #620# with LSU: 21435 and XRD claim: 1597.258433265872312497
+-- Using recovered 108735 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 8019.91802323825824093
+-- Claiming XRD reward: 0
+-- Day: 13, epoch 91979, LSU locked in contract: 10328270.84606, new validator rewards: 8019.91802323825824093, pool liqudity: 8024.83791253084384488
+-- Withdrawing NFT: #745# with LSU: 83999 and XRD claim: 6126.03303157747323983
+-- Withdrawing NFT: #827# with LSU: 21000 and XRD claim: 1427.90710693404559966
+-- Withdrawing NFT: #1073# with LSU: 7000 and XRD claim: 397.299180579017517892
+-- Withdrawing NFT: #1143# with LSU: 1310 and XRD claim: 72.766696087322043366
+-- Using recovered 113309 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 8032.406807933515703754
+-- Claiming XRD reward: 0
+-- Day: 14, epoch 92267, LSU locked in contract: 10214961.84606, new validator rewards: 8032.406807933515703754, pool liqudity: 8033.238705286501135853
+-- Withdrawing NFT: #932# with LSU: 82500 and XRD claim: 5399.681118541132258997
+-- Withdrawing NFT: #640# with LSU: 26907 and XRD claim: 2056.951445442931149133
+-- Withdrawing NFT: #1083# with LSU: 10000 and XRD claim: 575.433632233171969479
+-- Using recovered 119407 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 8029.176410490692028611
+-- Claiming XRD reward: 0
+-- Day: 15, epoch 92555, LSU locked in contract: 10095554.84606, new validator rewards: 8029.176410490692028611, pool liqudity: 8030.348919559957770646
+-- Withdrawing NFT: #580# with LSU: 81700 and XRD claim: 6516.129660829030920782
+-- Withdrawing NFT: #1010# with LSU: 20000 and XRD claim: 1216.857094454152398908
+-- Withdrawing NFT: #1136# with LSU: 5000 and XRD claim: 285.643758341982587066
+-- Using recovered 106700 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 8006.52438833002238052
+-- Claiming XRD reward: 0
+-- Day: 16, epoch 92843, LSU locked in contract: 9988854.84606, new validator rewards: 8006.52438833002238052, pool liqudity: 8018.242794264814232339
+-- Withdrawing NFT: #968# with LSU: 79000 and XRD claim: 5267.625542164885109739
+-- Withdrawing NFT: #785# with LSU: 20000 and XRD claim: 1441.901030266887053429
+-- Withdrawing NFT: #1047# with LSU: 20000 and XRD claim: 1192.452371361632908361
+-- Withdrawing NFT: #1197# with LSU: 2000 and XRD claim: 113.690871807387945313
+-- Using recovered 121000 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7961.677187297953152426
+-- Claiming XRD reward: 0
+-- Day: 17, epoch 93131, LSU locked in contract: 9867854.84606, new validator rewards: 7961.677187297953152426, pool liqudity: 7964.250165961974359913
+-- Withdrawing NFT: #598# with LSU: 52050 and XRD claim: 4235.053086861567520349
+-- Withdrawing NFT: #926# with LSU: 50000 and XRD claim: 3459.661039088192866262
+-- Withdrawing NFT: #1218# with LSU: 4550 and XRD claim: 261.082928704280348636
+-- Using recovered 106600 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7924.818321796021264143
+-- Claiming XRD reward: 0
+-- Day: 18, epoch 93419, LSU locked in contract: 9761254.84606, new validator rewards: 7924.818321796021264143, pool liqudity: 7933.271433103954880844
+-- Withdrawing NFT: #928# with LSU: 50000 and XRD claim: 3500.254274521415717624
+-- Withdrawing NFT: #869# with LSU: 50000 and XRD claim: 3599.873600122306910433
+-- Withdrawing NFT: #1142# with LSU: 12703 and XRD claim: 756.708808047757377276
+-- Withdrawing NFT: #1199# with LSU: 1209 and XRD claim: 70.659379229433817314
+-- Using recovered 113912 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7848.386353335812392681
+-- Claiming XRD reward: 0
+-- Day: 19, epoch 93707, LSU locked in contract: 9647342.84606, new validator rewards: 7848.386353335812392681, pool liqudity: 7854.161724518853442948
+-- Withdrawing NFT: #929# with LSU: 50000 and XRD claim: 3540.930689149621419711
+-- Withdrawing NFT: #1056# with LSU: 50000 and XRD claim: 3102.742057497688224425
+-- Withdrawing NFT: #1194# with LSU: 20000 and XRD claim: 1185.697443838229531523
+-- Using recovered 120000 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7840.340343627652890334
+-- Claiming XRD reward: 0
+-- Day: 20, epoch 93995, LSU locked in contract: 9527342.84606, new validator rewards: 7840.340343627652890334, pool liqudity: 7865.131877660967145846
+-- Withdrawing NFT: #930# with LSU: 50000 and XRD claim: 3582.077210642075103301
+-- Withdrawing NFT: #764# with LSU: 50000 and XRD claim: 3819.04411093825430778
+-- Withdrawing NFT: #1087# with LSU: 5900 and XRD claim: 368.132742007038598526
+-- Withdrawing NFT: #1124# with LSU: 1500 and XRD claim: 92.213635466345048224
+-- Using recovered 107400 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7809.054836927750656949
+-- Claiming XRD reward: 0
+-- Day: 21, epoch 94283, LSU locked in contract: 9419942.84606, new validator rewards: 7809.054836927750656949, pool liqudity: 7812.719015535004733199
+-- Withdrawing NFT: #765# with LSU: 50000 and XRD claim: 3860.493698077702705613
+-- Withdrawing NFT: #1055# with LSU: 50000 and XRD claim: 3185.338166129590305831
+-- Withdrawing NFT: #1074# with LSU: 11000 and XRD claim: 695.468089183801643948
+-- Withdrawing NFT: #1226# with LSU: 1150 and XRD claim: 69.365160440808166875
+-- Using recovered 112150 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7795.614397102482991382
+-- Claiming XRD reward: 0
+-- Day: 22, epoch 94571, LSU locked in contract: 9307792.84606, new validator rewards: 7795.614397102482991382, pool liqudity: 7797.668298805584894502
+-- Withdrawing NFT: #1058# with LSU: 50000 and XRD claim: 3227.214981213643105192
+-- Withdrawing NFT: #927# with LSU: 50000 and XRD claim: 3665.4036128655763005
+-- Withdrawing NFT: #969# with LSU: 12000 and XRD claim: 868.421194787253544477
+-- Withdrawing NFT: #1039# with LSU: 560 and XRD claim: 36.130782856802626712
+-- Using recovered 112560 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7694.919961482223740626
+-- Claiming XRD reward: 0
+-- Day: 23, epoch 94859, LSU locked in contract: 9195232.84606, new validator rewards: 7694.919961482223740626, pool liqudity: 7695.41768856453304655
+-- Withdrawing NFT: #925# with LSU: 50000 and XRD claim: 3707.245511218261111604
+-- Withdrawing NFT: #1089# with LSU: 50000 and XRD claim: 3232.928020196598389996
+-- Withdrawing NFT: #1088# with LSU: 10134.21244 and XRD claim: 657.697679182474170308
+-- Withdrawing NFT: #1070# with LSU: 1490 and XRD claim: 96.699131558947717061
+-- Using recovered 111624.21244 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7553.912328708752772866
+-- Claiming XRD reward: 0
+-- Day: 24, epoch 95147, LSU locked in contract: 9083608.63362, new validator rewards: 7553.912328708752772866, pool liqudity: 7554.759675117004422749
+-- Withdrawing NFT: #931# with LSU: 50000 and XRD claim: 3748.825419784282010196
+-- Withdrawing NFT: #1176# with LSU: 50000 and XRD claim: 3200.953015788281905921
+-- Withdrawing NFT: #881# with LSU: 7100 and XRD claim: 546.479153844694294084
+-- Withdrawing NFT: #1223# with LSU: 850 and XRD claim: 53.399990725426351323
+-- Using recovered 107950 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7542.097843824926854666
+-- Claiming XRD reward: 0
+-- Day: 25, epoch 95435, LSU locked in contract: 8975658.63362, new validator rewards: 7542.097843824926854666, pool liqudity: 7547.199938799246708333
+-- Withdrawing NFT: #315# with LSU: 50000 and XRD claim: 7520.006062915697376534
+-- Using recovered 50000 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7551.818362858030126229
+-- Claiming XRD reward: 0
+-- Day: 26, epoch 95723, LSU locked in contract: 8925658.63362, new validator rewards: 7551.818362858030126229, pool liqudity: 7579.012238741579450483
+-- Withdrawing NFT: #1214# with LSU: 50000 and XRD claim: 3242.336306698424598651
+-- Withdrawing NFT: #1071# with LSU: 49000 and XRD claim: 3298.880419740928179639
+-- Withdrawing NFT: #1038# with LSU: 15000 and XRD claim: 1016.865933971305656913
+-- Using recovered 114000 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7539.41565583402452231
+-- Claiming XRD reward: 0
+-- Day: 27, epoch 96011, LSU locked in contract: 8811658.63362, new validator rewards: 7539.41565583402452231, pool liqudity: 7560.345234164945529982
+-- Withdrawing NFT: #855# with LSU: 42611.29753 and XRD claim: 3383.619408663385212371
+-- Withdrawing NFT: #791# with LSU: 41000 and XRD claim: 3330.313154125607735546
+-- Withdrawing NFT: #967# with LSU: 11000 and XRD claim: 833.9199321032941266
+-- Using recovered 94611.29753 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7542.809499104882562637
+-- Claiming XRD reward: 0
+-- Day: 28, epoch 96299, LSU locked in contract: 8717047.33609, new validator rewards: 7542.809499104882562637, pool liqudity: 7555.30223837754101056
+-- Withdrawing NFT: #584# with LSU: 40500 and XRD claim: 3667.506961340754087832
+-- Withdrawing NFT: #776# with LSU: 40350 and XRD claim: 3354.017967833140829408
+-- Withdrawing NFT: #937# with LSU: 6500 and XRD claim: 509.323013202348742607
+-- Using recovered 87350 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7535.871898156949477025
+-- Claiming XRD reward: 0
+-- Day: 29, epoch 96587, LSU locked in contract: 8629697.33609, new validator rewards: 7535.871898156949477025, pool liqudity: 7560.326194158246820192
+-- Withdrawing NFT: #64# with LSU: 40000 and XRD claim: 7049.581956825224552144
+-- Withdrawing NFT: #687# with LSU: 5421.75242 and XRD claim: 473.831964382713893954
+-- Withdrawing NFT: #1029# with LSU: 510 and XRD claim: 36.411014912312428362
+-- Using recovered 45931.75242 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7522.968655359226899303
+-- Claiming XRD reward: 0
+-- Day: 30, epoch 96875, LSU locked in contract: 8583765.58367, new validator rewards: 7522.968655359226899303, pool liqudity: 7523.469913397222833601
+-- Withdrawing NFT: #751# with LSU: 39920 and XRD claim: 3475.43893895037112915
+-- Withdrawing NFT: #478# with LSU: 23450 and XRD claim: 3838.760093090776822028
+-- Withdrawing NFT: #999# with LSU: 2500 and XRD claim: 183.47865022831016064
+-- Using recovered 65870 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7508.74841553010014199
+-- Claiming XRD reward: 0
+-- Day: 31, epoch 97163, LSU locked in contract: 8517895.58367, new validator rewards: 7508.74841553010014199, pool liqudity: 7534.540646657864856244
+-- Withdrawing NFT: #104# with LSU: 35000 and XRD claim: 6229.861866367811542343
+-- Withdrawing NFT: #1084# with LSU: 17000 and XRD claim: 1220.069817908675761165
+-- Withdrawing NFT: #1181# with LSU: 1006 and XRD claim: 70.445101879592697493
+-- Using recovered 53006 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7498.909667408841851742
+-- Claiming XRD reward: 0
+-- Day: 32, epoch 97451, LSU locked in contract: 8464889.58367, new validator rewards: 7498.909667408841851742, pool liqudity: 7513.073527910626699399
+-- Withdrawing NFT: #383# with LSU: 33000 and XRD claim: 5157.932481775917519079
+-- Withdrawing NFT: #1072# with LSU: 20000 and XRD claim: 1453.093935000977632542
+-- Withdrawing NFT: #951# with LSU: 10750 and XRD claim: 871.789348832599345957
+-- Using recovered 63750 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7514.811281502498843234
+-- Claiming XRD reward: 0
+-- Day: 33, epoch 97739, LSU locked in contract: 8401139.58367, new validator rewards: 7514.811281502498843234, pool liqudity: 7545.069043803631033804
+-- Withdrawing NFT: #386# with LSU: 30000 and XRD claim: 4715.862542022284961061
+-- Withdrawing NFT: #953# with LSU: 20000 and XRD claim: 1655.907200007769235538
+-- Withdrawing NFT: #1002# with LSU: 15000 and XRD claim: 1140.800539438692345078
+-- Using recovered 65000 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 7514.259171098390039383
+-- Claiming XRD reward: 0
+-- Day: 34, epoch 98027, LSU locked in contract: 8336139.58367, new validator rewards: 7514.259171098390039383, pool liqudity: 7546.757933433274520215
+-- Withdrawing NFT: #140# with LSU: 25000 and XRD claim: 4515.898737027588825191
+-- Withdrawing NFT: #786# with LSU: 20000 and XRD claim: 1748.10855728229856026
+-- Withdrawing NFT: #974# with LSU: 15000 and XRD claim: 1193.503707103976134296
+-- Withdrawing NFT: #1001# with LSU: 1002 and XRD claim: 77.108686401109979634
+-- Using recovered 61002 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 15507.220821183072634472
+-- Claiming XRD reward: 0
+-- Day: 35, epoch 98315, LSU locked in contract: 8275137.58367, new validator rewards: 15507.220821183072634472, pool liqudity: 15519.359066801373643929
+-- Withdrawing NFT: #707# with LSU: 150000 and XRD claim: 14056.271695323103824354
+-- Withdrawing NFT: #873# with LSU: 15000 and XRD claim: 1313.446609440479395898
+-- Withdrawing NFT: #1204# with LSU: 2000 and XRD claim: 148.073958385866380867
+-- Using recovered 167000 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 407233.639552070461665533
+-- Day: 36, epoch 98603, LSU locked in contract: 8108137.58367, new validator rewards: 407233.639552070461665533, pool liqudity: 407235.206355722385692833
+-- Withdrawing NFT: #352# with LSU: 653000 and XRD claim: 137277.433535095474358459
+-- Withdrawing NFT: #573# with LSU: 311000 and XRD claim: 46018.036796998524736281
+-- Withdrawing NFT: #325# with LSU: 300000 and XRD claim: 63112.072031856162392979
+-- Withdrawing NFT: #263# with LSU: 290600.82662 and XRD claim: 61146.82903041796634319
+-- Withdrawing NFT: #574# with LSU: 252500 and XRD claim: 37361.910904315522408841
+-- Withdrawing NFT: #540# with LSU: 250000 and XRD claim: 44379.492299726667098865
+-- Withdrawing NFT: #477# with LSU: 73000 and XRD claim: 16013.804445509054273315
+-- Withdrawing NFT: #1061# with LSU: 15000 and XRD claim: 1905.483716660946253932
+-- Using recovered 2145100.82662 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 404502
+-- Day: 37, epoch 98891, LSU locked in contract: 5963036.75705, new validator rewards: 404502, pool liqudity: 404522.143595142067216119
+-- Withdrawing NFT: #1202# with LSU: 250000 and XRD claim: 48024.294616342894263006
+-- Withdrawing NFT: #1133# with LSU: 249655.03089 and XRD claim: 48296.13261287787375566
+-- Withdrawing NFT: #78# with LSU: 207000 and XRD claim: 62226.977945397608189876
+-- Withdrawing NFT: #141# with LSU: 200000 and XRD claim: 60114.020397133043688845
+-- Withdrawing NFT: #59# with LSU: 200000 and XRD claim: 60122.687282624448102526
+-- Withdrawing NFT: #978# with LSU: 200000 and XRD claim: 39900.213262298678529503
+-- Withdrawing NFT: #621# with LSU: 180000 and XRD claim: 38325.7086377653767465
+-- Withdrawing NFT: #553# with LSU: 157500 and XRD claim: 37974.911702890027298092
+-- Withdrawing NFT: #357# with LSU: 20675 and XRD claim: 5748.573544456720538987
+-- Withdrawing NFT: #575# with LSU: 17450 and XRD claim: 3765.759970230155976938
+-- Using recovered 1682280.03089 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 165574.4106
+-- Day: 38, epoch 99179, LSU locked in contract: 4280756.72616, new validator rewards: 165574.4106, pool liqudity: 165597.274223125239644867
+-- Withdrawing NFT: #144# with LSU: 150000 and XRD claim: 50887.33099978502699831
+-- Withdrawing NFT: #456# with LSU: 150000 and XRD claim: 48888.345131839299149998
+-- Withdrawing NFT: #381# with LSU: 141192 and XRD claim: 44716.892162378985716436
+-- Withdrawing NFT: #66# with LSU: 54000 and XRD claim: 18321.779219005288690045
+-- Withdrawing NFT: #753# with LSU: 10500.5813 and XRD claim: 2617.12639089478595661
+-- Withdrawing NFT: #762# with LSU: 650 and XRD claim: 162.003617274179558802
+-- Using recovered 506342.5813 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 138626
+-- Day: 39, epoch 99467, LSU locked in contract: 3774414.14486, new validator rewards: 138626, pool liqudity: 138629.796701947673397716
+-- Withdrawing NFT: #56# with LSU: 100800 and XRD claim: 37902.818709535680426879
+-- Withdrawing NFT: #180# with LSU: 100000 and XRD claim: 37595.278764939949730653
+-- Withdrawing NFT: #493# with LSU: 100000 and XRD claim: 36245.198334268470622129
+-- Withdrawing NFT: #272# with LSU: 71750 and XRD claim: 25374.422309333521905264
+-- Withdrawing NFT: #681# with LSU: 5002.92419 and XRD claim: 1436.880372577994279658
+-- Using recovered 377552.92419 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 141000
+-- Day: 40, epoch 99755, LSU locked in contract: 3396861.22067, new validator rewards: 141000, pool liqudity: 141075.198211292056209904
+-- Withdrawing NFT: #278# with LSU: 100000 and XRD claim: 39515.939317766316029955
+-- Withdrawing NFT: #321# with LSU: 100000 and XRD claim: 39512.397158288764860673
+-- Withdrawing NFT: #116# with LSU: 90000 and XRD claim: 37577.474536391183876022
+-- Withdrawing NFT: #152# with LSU: 50000 and XRD claim: 20873.084783977855627322
+-- Withdrawing NFT: #703# with LSU: 10000 and XRD claim: 3286.84175738608706443
+-- Withdrawing NFT: #1228# with LSU: 1000 and XRD claim: 308.393413416265749288
+-- Using recovered 351000 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 160500
+-- Day: 41, epoch 100043, LSU locked in contract: 3045861.22067, new validator rewards: 160500, pool liqudity: 160501.067244065582853475
+-- Withdrawing NFT: #494# with LSU: 89000 and XRD claim: 40642.325914000188301735
+-- Withdrawing NFT: #94# with LSU: 80000 and XRD claim: 37617.869959911957260208
+-- Withdrawing NFT: #54# with LSU: 50000 and XRD claim: 23511.170090753690760675
+-- Withdrawing NFT: #77# with LSU: 50000 and XRD claim: 23511.168724944972755408
+-- Withdrawing NFT: #153# with LSU: 50000 and XRD claim: 23507.807582751575069515
+-- Withdrawing NFT: #945# with LSU: 20000 and XRD claim: 7464.817490585531657306
+-- Withdrawing NFT: #704# with LSU: 10000 and XRD claim: 3813.786317140830899607
+-- Withdrawing NFT: #806# with LSU: 1100 and XRD claim: 412.000545624323481637
+-- Using recovered 350100 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 66500
+-- Day: 42, epoch 100331, LSU locked in contract: 2695761.22067, new validator rewards: 66500, pool liqudity: 66520.120618352512491262
+-- Withdrawing NFT: #154# with LSU: 50000 and XRD claim: 24741.225429445582341603
+-- Withdrawing NFT: #220# with LSU: 49174 and XRD claim: 24330.931792122113959896
+-- Withdrawing NFT: #1045# with LSU: 20000 and XRD claim: 7782.90917660236130038
+-- Withdrawing NFT: #473# with LSU: 20000 and XRD claim: 9629.704814529893076951
+-- Using recovered 139174 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 211570
+-- Day: 43, epoch 100619, LSU locked in contract: 2556587.22067, new validator rewards: 211570, pool liqudity: 211605.349405652561708035
+-- Withdrawing NFT: #52# with LSU: 49000 and XRD claim: 28304.683982824260302059
+-- Withdrawing NFT: #790# with LSU: 20000 and XRD claim: 9681.892199617113147272
+-- Withdrawing NFT: #561# with LSU: 20000 and XRD claim: 10131.512279059978079129
+-- Withdrawing NFT: #1217# with LSU: 20000 and XRD claim: 9377.034545566035270806
+-- Withdrawing NFT: #1121# with LSU: 20000 and XRD claim: 9409.409851438778440538
+-- Withdrawing NFT: #332# with LSU: 20000 and XRD claim: 11103.06248349254986513
+-- Withdrawing NFT: #879# with LSU: 19800 and XRD claim: 9526.859686054815830218
+-- Withdrawing NFT: #485# with LSU: 19499 and XRD claim: 10998.995258208478582291
+-- Withdrawing NFT: #916# with LSU: 18900 and XRD claim: 9084.551199102075522455
+-- Withdrawing NFT: #173# with LSU: 17000 and XRD claim: 9818.849149483615287936
+-- Withdrawing NFT: #571# with LSU: 16010 and XRD claim: 7872.573481018123697142
+-- Withdrawing NFT: #123# with LSU: 15000 and XRD claim: 8664.656344777808769846
+-- Withdrawing NFT: #62# with LSU: 15000 and XRD claim: 8664.699014478676585129
+-- Withdrawing NFT: #68# with LSU: 15000 and XRD claim: 8664.698768672974008585
+-- Withdrawing NFT: #330# with LSU: 15000 and XRD claim: 8660.149037789084994293
+-- Withdrawing NFT: #1040# with LSU: 15000 and XRD claim: 7078.504679633051257271
+-- Withdrawing NFT: #462# with LSU: 15000 and XRD claim: 8464.019545390662282606
+-- Withdrawing NFT: #1137# with LSU: 15000 and XRD claim: 7053.424475138447790274
+-- Withdrawing NFT: #39# with LSU: 14000 and XRD claim: 8087.056581940502853471
+-- Withdrawing NFT: #861# with LSU: 14000 and XRD claim: 6757.190595688305303044
+-- Withdrawing NFT: #944# with LSU: 13500 and XRD claim: 6488.965142215767941834
+-- Withdrawing NFT: #251# with LSU: 13300 and XRD claim: 7386.056780516409669613
+-- Withdrawing NFT: #813# with LSU: 650 and XRD claim: 314.36445570602026607
+-- Using recovered 400659 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 153600
+-- Day: 44, epoch 100907, LSU locked in contract: 2155928.22067, new validator rewards: 153600, pool liqudity: 153612.139867839025733658
+-- Withdrawing NFT: #406# with LSU: 12447.9797 and XRD claim: 7796.278144395434825523
+-- Withdrawing NFT: #733# with LSU: 12000 and XRD claim: 6701.918952801713976781
+-- Withdrawing NFT: #641# with LSU: 12000 and XRD claim: 6722.306065798785938119
+-- Withdrawing NFT: #832# with LSU: 11500 and XRD claim: 6369.87168616301441865
+-- Withdrawing NFT: #711# with LSU: 11456 and XRD claim: 6415.901369617336357163
+-- Withdrawing NFT: #527# with LSU: 11200 and XRD claim: 6871.913490647928057193
+-- Withdrawing NFT: #498# with LSU: 11000 and XRD claim: 6985.715056020071547392
+-- Withdrawing NFT: #82# with LSU: 10800 and XRD claim: 7008.033591477834692458
+-- Withdrawing NFT: #50# with LSU: 10349 and XRD claim: 6715.383582528802577506
+-- Withdrawing NFT: #137# with LSU: 10150 and XRD claim: 6585.942684267148611282
+-- Withdrawing NFT: #342# with LSU: 10050 and XRD claim: 6294.854330650259678282
+-- Withdrawing NFT: #253# with LSU: 10010 and XRD claim: 6272.146177388432807431
+-- Withdrawing NFT: #219# with LSU: 10000 and XRD claim: 6487.928775337358902364
+-- Withdrawing NFT: #58# with LSU: 10000 and XRD claim: 6488.920155979574656975
+-- Withdrawing NFT: #108# with LSU: 10000 and XRD claim: 6488.905755362764861828
+-- Withdrawing NFT: #705# with LSU: 10000 and XRD claim: 5600.472564260943128076
+-- Withdrawing NFT: #946# with LSU: 10000 and XRD claim: 5519.094992412877764169
+-- Withdrawing NFT: #860# with LSU: 10000 and XRD claim: 5539.018857533055991359
+-- Withdrawing NFT: #859# with LSU: 10000 and XRD claim: 5539.018857533055991359
+-- Withdrawing NFT: #842# with LSU: 10000 and XRD claim: 5539.018857533055991359
+-- Withdrawing NFT: #1234# with LSU: 10000 and XRD claim: 5395.407375909999121028
+-- Withdrawing NFT: #772# with LSU: 10000 and XRD claim: 5566.48837247211358666
+-- Withdrawing NFT: #773# with LSU: 10000 and XRD claim: 5566.48837247211358666
+-- Withdrawing NFT: #973# with LSU: 10000 and XRD claim: 5488.34579988663726633
+-- Withdrawing NFT: #564# with LSU: 6000 and XRD claim: 3456.723507108021521412
+-- Using recovered 258962.9797 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 145300
+-- Day: 45, epoch 101195, LSU locked in contract: 1896965.24097, new validator rewards: 145300, pool liqudity: 145496.042492280689717498
+-- Withdrawing NFT: #1054# with LSU: 10000 and XRD claim: 6197.417531784048491033
+-- Withdrawing NFT: #797# with LSU: 10000 and XRD claim: 6314.790653659769587538
+-- Withdrawing NFT: #914# with LSU: 10000 and XRD claim: 6285.055258114435098028
+-- Withdrawing NFT: #792# with LSU: 10000 and XRD claim: 6322.141861236675534189
+-- Withdrawing NFT: #1106# with LSU: 10000 and XRD claim: 6190.191759910102588616
+-- Withdrawing NFT: #939# with LSU: 10000 and XRD claim: 6285.055258114435098028
+-- Withdrawing NFT: #562# with LSU: 10000 and XRD claim: 6539.3073530766927571
+-- Withdrawing NFT: #996# with LSU: 10000 and XRD claim: 6245.597824437275014577
+-- Withdrawing NFT: #464# with LSU: 10000 and XRD claim: 7121.050868453166769273
+-- Withdrawing NFT: #548# with LSU: 10000 and XRD claim: 6695.630293326756569684
+-- Withdrawing NFT: #642# with LSU: 10000 and XRD claim: 6378.129378407818977205
+-- Withdrawing NFT: #558# with LSU: 10000 and XRD claim: 6639.379885337940233188
+-- Withdrawing NFT: #717# with LSU: 10000 and XRD claim: 6350.892726369652263477
+-- Withdrawing NFT: #1067# with LSU: 10000 and XRD claim: 6192.524537324582714298
+-- Withdrawing NFT: #1016# with LSU: 10000 and XRD claim: 6213.40376938994731389
+-- Withdrawing NFT: #1151# with LSU: 10000 and XRD claim: 6180.802315142617216764
+-- Withdrawing NFT: #1230# with LSU: 10000 and XRD claim: 6163.52520673907153432
+-- Withdrawing NFT: #1229# with LSU: 10000 and XRD claim: 6163.52520673907153432
+-- Withdrawing NFT: #572# with LSU: 10000 and XRD claim: 6395.699534463486568479
+-- Withdrawing NFT: #323# with LSU: 10000 and XRD claim: 7030.830788405289543589
+-- Withdrawing NFT: #372# with LSU: 10000 and XRD claim: 7029.056491459860701105
+-- Withdrawing NFT: #438# with LSU: 10000 and XRD claim: 7027.983215871603008728
+-- Withdrawing NFT: #959# with LSU: 5000 and XRD claim: 3131.432255628632388337
+-- Withdrawing NFT: #712# with LSU: 600 and XRD claim: 381.985969797749316483
+-- Using recovered 225600 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 128979.74882
+-- Day: 46, epoch 101483, LSU locked in contract: 1671365.24097, new validator rewards: 128979.74882, pool liqudity: 129000.38136909000867672
+-- Withdrawing NFT: #282# with LSU: 10000 and XRD claim: 7802.887955080587701781
+-- Withdrawing NFT: #1026# with LSU: 10000 and XRD claim: 6973.690685140980000308
+-- Withdrawing NFT: #1003# with LSU: 10000 and XRD claim: 6994.25135309791042572
+-- Withdrawing NFT: #737# with LSU: 9400 and XRD claim: 6687.552211792751034665
+-- Withdrawing NFT: #457# with LSU: 9200 and XRD claim: 7261.45355931603878927
+-- Withdrawing NFT: #829# with LSU: 9000 and XRD claim: 6369.013866565940596528
+-- Withdrawing NFT: #258# with LSU: 9000 and XRD claim: 7022.654941611076481137
+-- Withdrawing NFT: #284# with LSU: 8700 and XRD claim: 6788.512520920111407681
+-- Withdrawing NFT: #76# with LSU: 8471 and XRD claim: 6799.318635952714583125
+-- Withdrawing NFT: #769# with LSU: 8000 and XRD claim: 5669.144371127249878953
+-- Withdrawing NFT: #102# with LSU: 7845 and XRD claim: 6296.843358370717900658
+-- Withdrawing NFT: #556# with LSU: 7777 and XRD claim: 5775.988632215009986006
+-- Withdrawing NFT: #511# with LSU: 7594 and XRD claim: 5872.419285287024360022
+-- Withdrawing NFT: #14# with LSU: 6914 and XRD claim: 5549.695601094592830412
+-- Withdrawing NFT: #588# with LSU: 6900 and XRD claim: 4953.149574713624605054
+-- Withdrawing NFT: #443# with LSU: 6326 and XRD claim: 4934.053597425165943196
+-- Withdrawing NFT: #95# with LSU: 6306.91 and XRD claim: 5062.293790376169820552
+-- Withdrawing NFT: #136# with LSU: 6000 and XRD claim: 4815.766019079419458004
+-- Withdrawing NFT: #636# with LSU: 6000 and XRD claim: 4291.997980439607447667
+-- Withdrawing NFT: #688# with LSU: 6000 and XRD claim: 4282.880418827489973873
+-- Withdrawing NFT: #409# with LSU: 5750 and XRD claim: 4485.359296338258291987
+-- Withdrawing NFT: #273# with LSU: 5410 and XRD claim: 4221.362383698597506032
+-- Using recovered 170593.91 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 116735
+-- Day: 47, epoch 101771, LSU locked in contract: 1500771.33097, new validator rewards: 116735, pool liqudity: 116825.091330618969521333
+-- Withdrawing NFT: #85# with LSU: 5509 and XRD claim: 4850.353085052810796887
+-- Withdrawing NFT: #3# with LSU: 5000 and XRD claim: 4465.884612237475072837
+-- Withdrawing NFT: #390# with LSU: 5000 and XRD claim: 4399.547434380731331047
+-- Withdrawing NFT: #34# with LSU: 5000 and XRD claim: 4402.209852609460915542
+-- Withdrawing NFT: #341# with LSU: 5000 and XRD claim: 4399.842723515131532098
+-- Withdrawing NFT: #67# with LSU: 5000 and XRD claim: 4402.208281950272689982
+-- Withdrawing NFT: #69# with LSU: 5000 and XRD claim: 4402.208281950272689982
+-- Withdrawing NFT: #880# with LSU: 5000 and XRD claim: 3919.748007052922077015
+-- Withdrawing NFT: #1042# with LSU: 5000 and XRD claim: 3873.476918936965350267
+-- Withdrawing NFT: #706# with LSU: 5000 and XRD claim: 3957.984568026191313664
+-- Withdrawing NFT: #744# with LSU: 5000 and XRD claim: 3951.92899642856704483
+-- Withdrawing NFT: #924# with LSU: 5000 and XRD claim: 3917.295782102158633855
+-- Withdrawing NFT: #607# with LSU: 5000 and XRD claim: 3977.936332802587672346
+-- Withdrawing NFT: #651# with LSU: 5000 and XRD claim: 3958.553598996106603085
+-- Withdrawing NFT: #631# with LSU: 5000 and XRD claim: 3967.265585207801193425
+-- Withdrawing NFT: #489# with LSU: 5000 and XRD claim: 4334.375189360445669503
+-- Withdrawing NFT: #1189# with LSU: 5000 and XRD claim: 3861.06485813085103973
+-- Withdrawing NFT: #418# with LSU: 5000 and XRD claim: 4288.875901442641399656
+-- Withdrawing NFT: #388# with LSU: 5000 and XRD claim: 4289.29607243726383063
+-- Withdrawing NFT: #987# with LSU: 5000 and XRD claim: 3893.888346159170659057
+-- Withdrawing NFT: #1157# with LSU: 5000 and XRD claim: 3863.916368320768532272
+-- Withdrawing NFT: #430# with LSU: 5000 and XRD claim: 4288.875796259704180688
+-- Withdrawing NFT: #1219# with LSU: 5000 and XRD claim: 3856.511155981110571552
+-- Withdrawing NFT: #366# with LSU: 5000 and XRD claim: 4289.364529935185189127
+-- Withdrawing NFT: #836# with LSU: 4990 and XRD claim: 3919.403199232923214575
+-- Withdrawing NFT: #616# with LSU: 4850 and XRD claim: 3852.36460661521414134
+-- Withdrawing NFT: #595# with LSU: 4300 and XRD claim: 3421.213729946180768046
+-- Withdrawing NFT: #952# with LSU: 4250 and XRD claim: 3329.701414786834864309
+-- Withdrawing NFT: #802# with LSU: 3000 and XRD claim: 2359.298087924895257422
+-- Using recovered 141899 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 121309
+-- Day: 48, epoch 102059, LSU locked in contract: 1358872.33097, new validator rewards: 121309, pool liqudity: 121439.498012836325166303
+-- Withdrawing NFT: #1163# with LSU: 4240 and XRD claim: 3655.113577998572080975
+-- Withdrawing NFT: #674# with LSU: 4112 and XRD claim: 3622.267238098920172317
+-- Withdrawing NFT: #758# with LSU: 4000 and XRD claim: 3511.155727366488172013
+-- Withdrawing NFT: #828# with LSU: 4000 and XRD claim: 3498.893433675609677805
+-- Withdrawing NFT: #567# with LSU: 4000 and XRD claim: 3567.833606447273495013
+-- Withdrawing NFT: #389# with LSU: 4000 and XRD claim: 3788.524119895622577665
+-- Withdrawing NFT: #356# with LSU: 3800 and XRD claim: 3599.1499415992618837
+-- Withdrawing NFT: #963# with LSU: 3600 and XRD claim: 3138.448797174639402288
+-- Withdrawing NFT: #583# with LSU: 3600 and XRD claim: 3185.650495706172401562
+-- Withdrawing NFT: #294# with LSU: 3600 and XRD claim: 3410.374248228567543608
+-- Withdrawing NFT: #181# with LSU: 3500 and XRD claim: 3393.761871614238220046
+-- Withdrawing NFT: #84# with LSU: 3500 and XRD claim: 3393.997151567776055756
+-- Withdrawing NFT: #1224# with LSU: 3500 and XRD claim: 3012.022937040952507855
+-- Withdrawing NFT: #447# with LSU: 3500 and XRD claim: 3347.304268208365912139
+-- Withdrawing NFT: #482# with LSU: 3500 and XRD claim: 3346.988295682860916608
+-- Withdrawing NFT: #126# with LSU: 3200 and XRD claim: 3102.99276518497772116
+-- Withdrawing NFT: #97# with LSU: 3150 and XRD claim: 3054.597436410998348381
+-- Withdrawing NFT: #165# with LSU: 3000 and XRD claim: 2908.938747097918240979
+-- Withdrawing NFT: #866# with LSU: 3000 and XRD claim: 2624.170075256707033738
+-- Withdrawing NFT: #677# with LSU: 3000 and XRD claim: 2642.704697056605111528
+-- Withdrawing NFT: #249# with LSU: 3000 and XRD claim: 2842.228507124192727316
+-- Withdrawing NFT: #426# with LSU: 3000 and XRD claim: 2841.140987324943261159
+-- Withdrawing NFT: #311# with LSU: 3000 and XRD claim: 2841.942903811091600468
+-- Withdrawing NFT: #516# with LSU: 2847.28681 and XRD claim: 2670.103537480787857519
+-- Withdrawing NFT: #223# with LSU: 2750 and XRD claim: 2666.439463048164585652
+-- Withdrawing NFT: #520# with LSU: 2710 and XRD claim: 2535.41695807747379758
+-- Withdrawing NFT: #739# with LSU: 2500 and XRD claim: 2194.472329604055043858
+-- Withdrawing NFT: #151# with LSU: 2500 and XRD claim: 2424.115622581598566251
+-- Withdrawing NFT: #142# with LSU: 2500 and XRD claim: 2424.175384590242984344
+-- Withdrawing NFT: #731# with LSU: 2500 and XRD claim: 2194.472329604055043858
+-- Withdrawing NFT: #61# with LSU: 2500 and XRD claim: 2424.283720658885527692
+-- Withdrawing NFT: #210# with LSU: 2500 and XRD claim: 2424.06283934270201343
+-- Withdrawing NFT: #976# with LSU: 2500 and XRD claim: 2171.502795404813694696
+-- Withdrawing NFT: #222# with LSU: 2500 and XRD claim: 2424.035875498331591809
+-- Withdrawing NFT: #96# with LSU: 2500 and XRD claim: 2424.28367969126844351
+-- Withdrawing NFT: #698# with LSU: 2500 and XRD claim: 2202.171822729227404494
+-- Withdrawing NFT: #455# with LSU: 2500 and XRD claim: 2390.871236839839384292
+-- Withdrawing NFT: #1128# with LSU: 2500 and XRD claim: 2156.412961679016470634
+-- Withdrawing NFT: #770# with LSU: 2500 and XRD claim: 2192.771381676027136742
+-- Withdrawing NFT: #1227# with LSU: 2500 and XRD claim: 2151.444916923370814459
+-- Withdrawing NFT: #1205# with LSU: 2500 and XRD claim: 2152.993075789509419167
+-- Withdrawing NFT: #373# with LSU: 2500 and XRD claim: 2367.82773810356759027
+-- Withdrawing NFT: #424# with LSU: 2500 and XRD claim: 2367.617489437452598282
+-- Using recovered 131609.28681 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 127407
+-- Day: 49, epoch 102347, LSU locked in contract: 1227263.04416, new validator rewards: 127407, pool liqudity: 127556.82102450317994506
+-- Withdrawing NFT: #471# with LSU: 2500 and XRD claim: 2626.937348228732572364
+-- Withdrawing NFT: #375# with LSU: 2500 and XRD claim: 2627.362563596507654176
+-- Withdrawing NFT: #276# with LSU: 2500 and XRD claim: 2627.894691819803655862
+-- Withdrawing NFT: #1075# with LSU: 2400 and XRD claim: 2321.51697094178875847
+-- Withdrawing NFT: #906# with LSU: 2400 and XRD claim: 2343.70776504974509323
+-- Withdrawing NFT: #101# with LSU: 2393 and XRD claim: 2568.951073162324310501
+-- Withdrawing NFT: #1164# with LSU: 2300 and XRD claim: 2221.508872580924862914
+-- Withdrawing NFT: #103# with LSU: 2270 and XRD claim: 2436.903970965841668958
+-- Withdrawing NFT: #99# with LSU: 2240 and XRD claim: 2404.701380645050652322
+-- Withdrawing NFT: #545# with LSU: 2200 and XRD claim: 2240.187071963570771736
+-- Withdrawing NFT: #146# with LSU: 2120 and XRD claim: 2275.786258150538956261
+-- Withdrawing NFT: #721# with LSU: 2100 and XRD claim: 2062.852692345198677441
+-- Withdrawing NFT: #199# with LSU: 2000 and XRD claim: 2146.878131868513328048
+-- Withdrawing NFT: #188# with LSU: 2000 and XRD claim: 2146.878131868513328048
+-- Withdrawing NFT: #158# with LSU: 2000 and XRD claim: 2146.92035845963058082
+-- Withdrawing NFT: #70# with LSU: 2000 and XRD claim: 2147.054804147366484847
+-- Withdrawing NFT: #72# with LSU: 2000 and XRD claim: 2147.054804147366484847
+-- Withdrawing NFT: #1110# with LSU: 2000 and XRD claim: 1934.117104567254290027
+-- Withdrawing NFT: #709# with LSU: 2000 and XRD claim: 1969.36531857773382556
+-- Withdrawing NFT: #1077# with LSU: 2000 and XRD claim: 1934.597475784823821891
+-- Withdrawing NFT: #742# with LSU: 2000 and XRD claim: 1966.943089938684115953
+-- Withdrawing NFT: #844# with LSU: 2000 and XRD claim: 1957.074577232156395951
+-- Withdrawing NFT: #472# with LSU: 2000 and XRD claim: 2120.241822734797033501
+-- Withdrawing NFT: #659# with LSU: 2000 and XRD claim: 1969.592930965700265512
+-- Withdrawing NFT: #652# with LSU: 2000 and XRD claim: 1969.592930965700265512
+-- Withdrawing NFT: #1004# with LSU: 2000 and XRD claim: 1940.588433059307603876
+-- Withdrawing NFT: #410# with LSU: 2000 and XRD claim: 2101.863135079119732592
+-- Withdrawing NFT: #280# with LSU: 2000 and XRD claim: 2102.315753455842952939
+-- Withdrawing NFT: #992# with LSU: 2000 and XRD claim: 1943.726829830925871921
+-- Withdrawing NFT: #393# with LSU: 2000 and XRD claim: 2101.889911678270288343
+-- Withdrawing NFT: #288# with LSU: 2000 and XRD claim: 2102.315638890084669265
+-- Withdrawing NFT: #100# with LSU: 1990 and XRD claim: 2136.319530126630056086
+-- Withdrawing NFT: #266# with LSU: 1950 and XRD claim: 2049.757975079660033126
+-- Withdrawing NFT: #484# with LSU: 1900 and XRD claim: 2013.925488755863960299
+-- Withdrawing NFT: #252# with LSU: 1846 and XRD claim: 1940.558456527740213481
+-- Withdrawing NFT: #169# with LSU: 1800 and XRD claim: 1932.228322613667670082
+-- Withdrawing NFT: #599# with LSU: 1800 and XRD claim: 1779.690193649122094661
+-- Withdrawing NFT: #839# with LSU: 1800 and XRD claim: 1759.712742079495785874
+-- Withdrawing NFT: #167# with LSU: 1770 and XRD claim: 1900.024517236773249415
+-- Withdrawing NFT: #98# with LSU: 1765 and XRD claim: 1894.77586466005079794
+-- Withdrawing NFT: #262# with LSU: 1760 and XRD claim: 1850.048771528679833452
+-- Withdrawing NFT: #211# with LSU: 1720 and XRD claim: 1846.315193406921223051
+-- Withdrawing NFT: #367# with LSU: 1700 and XRD claim: 1786.629707840131783761
+-- Withdrawing NFT: #899# with LSU: 1600 and XRD claim: 1562.471843366496316331
+-- Withdrawing NFT: #503# with LSU: 1525 and XRD claim: 1612.848664733328847644
+-- Withdrawing NFT: #11# with LSU: 1518 and XRD claim: 1629.640058242516906692
+-- Withdrawing NFT: #19# with LSU: 1500 and XRD claim: 1610.291574308281398774
+-- Withdrawing NFT: #28# with LSU: 1500 and XRD claim: 1610.291574308281398774
+-- Withdrawing NFT: #331# with LSU: 1500 and XRD claim: 1609.671562049884117142
+-- Withdrawing NFT: #189# with LSU: 1500 and XRD claim: 1610.158598901385051477
+-- Withdrawing NFT: #618# with LSU: 1500 and XRD claim: 1478.723768873529455283
+-- Withdrawing NFT: #420# with LSU: 1500 and XRD claim: 1576.291388958235391859
+-- Withdrawing NFT: #1012# with LSU: 1488.73708 and XRD claim: 1442.334800477295029872
+-- Withdrawing NFT: #470# with LSU: 1450 and XRD claim: 1537.175321482727761225
+-- Withdrawing NFT: #1188# with LSU: 1417 and XRD claim: 1367.81787384759986275
+-- Withdrawing NFT: #1107# with LSU: 1400 and XRD claim: 1353.893343224180809994
+-- Withdrawing NFT: #594# with LSU: 1400 and XRD claim: 1384.203583939557740859
+-- Withdrawing NFT: #1222# with LSU: 1400 and XRD claim: 1350.148655753134051883
+-- Withdrawing NFT: #1059# with LSU: 1390 and XRD claim: 1345.065598989497149967
+-- Withdrawing NFT: #854# with LSU: 1272.49862 and XRD claim: 1245.187349382500833415
+-- Withdrawing NFT: #118# with LSU: 1200 and XRD claim: 1288.231006578579580666
+-- Withdrawing NFT: #1066# with LSU: 1200 and XRD claim: 1160.758485470893991532
+-- Withdrawing NFT: #716# with LSU: 1200 and XRD claim: 1179.754378715498629577
+-- Withdrawing NFT: #547# with LSU: 1101 and XRD claim: 1120.746296718729331978
+-- Withdrawing NFT: #128# with LSU: 1100 and XRD claim: 1180.848919837185783339
+-- Withdrawing NFT: #212# with LSU: 1100 and XRD claim: 1180.782972527681946485
+-- Withdrawing NFT: #509# with LSU: 1100 and XRD claim: 1148.583282302055687552
+-- Withdrawing NFT: #807# with LSU: 1083.74844 and XRD claim: 1059.743388365806786389
+-- Withdrawing NFT: #184# with LSU: 1050 and XRD claim: 1127.111019230969169799
+-- Withdrawing NFT: #528# with LSU: 1050 and XRD claim: 1090.109062754154565509
+-- Using recovered 123769.98414 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 114700
+-- Day: 50, epoch 102635, LSU locked in contract: 1103493.06002, new validator rewards: 114700, pool liqudity: 114896.628044956636540968
+-- Withdrawing NFT: #407# with LSU: 1049 and XRD claim: 1211.467429219421153563
+-- Withdrawing NFT: #83# with LSU: 1010 and XRD claim: 1189.244759079065268434
+-- Withdrawing NFT: #265# with LSU: 1002 and XRD claim: 1157.416944614950615155
+-- Withdrawing NFT: #798# with LSU: 1001 and XRD claim: 1084.544559177113329725
+-- Withdrawing NFT: #1# with LSU: 1000 and XRD claim: 1190.205324551564413895
+-- Withdrawing NFT: #129# with LSU: 1000 and XRD claim: 1177.441674454246314827
+-- Withdrawing NFT: #9# with LSU: 1000 and XRD claim: 1177.529454927222115916
+-- Withdrawing NFT: #201# with LSU: 1000 and XRD claim: 1177.381722354697364124
+-- Withdrawing NFT: #922# with LSU: 1000 and XRD claim: 1079.148711314276554849
+-- Withdrawing NFT: #985# with LSU: 1000 and XRD claim: 1075.37030261498431957
+-- Withdrawing NFT: #27# with LSU: 1000 and XRD claim: 1177.470372625961578834
+-- Withdrawing NFT: #120# with LSU: 1000 and XRD claim: 1177.468495235923803671
+-- Withdrawing NFT: #30# with LSU: 1000 and XRD claim: 1177.470372625961578834
+-- Withdrawing NFT: #40# with LSU: 1000 and XRD claim: 1177.470372625961578834
+-- Withdrawing NFT: #761# with LSU: 1000 and XRD claim: 1087.414201389782578679
+-- Withdrawing NFT: #1043# with LSU: 1000 and XRD claim: 1071.723785891462277332
+-- Withdrawing NFT: #904# with LSU: 1000 and XRD claim: 1080.487558524500903304
+-- Withdrawing NFT: #847# with LSU: 1000 and XRD claim: 1082.479945036518727589
+-- Withdrawing NFT: #1101# with LSU: 1000 and XRD claim: 1071.001208704067700837
+-- Withdrawing NFT: #1031# with LSU: 1000 and XRD claim: 1072.624672847427988195
+-- Withdrawing NFT: #565# with LSU: 1000 and XRD claim: 1103.718192906136452993
+-- Withdrawing NFT: #526# with LSU: 1000 and XRD claim: 1142.14189006474588634
+-- Withdrawing NFT: #682# with LSU: 1000 and XRD claim: 1088.658152303151865166
+-- Withdrawing NFT: #458# with LSU: 1000 and XRD claim: 1164.100168000742590694
+-- Withdrawing NFT: #543# with LSU: 1000 and XRD claim: 1122.209507312973010994
+-- Withdrawing NFT: #1018# with LSU: 1000 and XRD claim: 1073.322409652052734616
+-- Withdrawing NFT: #1014# with LSU: 1000 and XRD claim: 1073.322409652052734616
+-- Withdrawing NFT: #1013# with LSU: 1000 and XRD claim: 1073.322409652052734616
+-- Withdrawing NFT: #506# with LSU: 1000 and XRD claim: 1161.483022065469056347
+-- Withdrawing NFT: #557# with LSU: 1000 and XRD claim: 1117.513117634518611733
+-- Withdrawing NFT: #500# with LSU: 1000 and XRD claim: 1161.69694606804786976
+-- Withdrawing NFT: #507# with LSU: 1000 and XRD claim: 1161.33309342820244963
+-- Withdrawing NFT: #1201# with LSU: 1000 and XRD claim: 1068.953816933420784889
+-- Withdrawing NFT: #431# with LSU: 1000 and XRD claim: 1154.803561356010303069
+-- Withdrawing NFT: #986# with LSU: 1000 and XRD claim: 1075.806071335903783917
+-- Withdrawing NFT: #1123# with LSU: 1000 and XRD claim: 1070.293966487864985057
+-- Withdrawing NFT: #718# with LSU: 1000 and XRD claim: 1086.253462299106860779
+-- Withdrawing NFT: #243# with LSU: 1000 and XRD claim: 1155.210348079068432015
+-- Withdrawing NFT: #414# with LSU: 1000 and XRD claim: 1154.874161547462468728
+-- Withdrawing NFT: #442# with LSU: 1000 and XRD claim: 1154.77594842518582361
+-- Withdrawing NFT: #411# with LSU: 1000 and XRD claim: 1154.874223960000533856
+-- Withdrawing NFT: #299# with LSU: 1000 and XRD claim: 1155.082766681107579951
+-- Withdrawing NFT: #259# with LSU: 1000 and XRD claim: 1155.10673115264522934
+-- Withdrawing NFT: #984# with LSU: 1000 and XRD claim: 1075.806071335903783917
+-- Withdrawing NFT: #686# with LSU: 1000 and XRD claim: 1087.731472210098784226
+-- Withdrawing NFT: #343# with LSU: 993.85565 and XRD claim: 1147.835419286022653954
+-- Withdrawing NFT: #408# with LSU: 990 and XRD claim: 1143.329604315754706445
+-- Withdrawing NFT: #740# with LSU: 980 and XRD claim: 1064.52839305312477428
+-- Withdrawing NFT: #720# with LSU: 950.31515 and XRD claim: 1033.386189905861478028
+-- Withdrawing NFT: #863# with LSU: 930.56324 and XRD claim: 1007.316044888204778806
+-- Withdrawing NFT: #240# with LSU: 910 and XRD claim: 1051.241416751952359959
+-- Withdrawing NFT: #750# with LSU: 907.3044 and XRD claim: 986.615689543435917997
+-- Withdrawing NFT: #923# with LSU: 900 and XRD claim: 972.438802672050955175
+-- Withdrawing NFT: #348# with LSU: 900 and XRD claim: 1039.425797531207858564
+-- Withdrawing NFT: #313# with LSU: 900 and XRD claim: 1039.563799099182378643
+-- Withdrawing NFT: #1021# with LSU: 890 and XRD claim: 954.768653765817343561
+-- Withdrawing NFT: #1169# with LSU: 800.8096 and XRD claim: 856.718986523156627533
+-- Withdrawing NFT: #1053# with LSU: 790 and XRD claim: 846.661790854255051634
+-- Withdrawing NFT: #149# with LSU: 755 and XRD claim: 888.939140915942971761
+-- Withdrawing NFT: #24# with LSU: 750 and XRD claim: 883.102779469471019318
+-- Withdrawing NFT: #841# with LSU: 750 and XRD claim: 811.781771797018033879
+-- Withdrawing NFT: #502# with LSU: 740 and XRD claim: 852.838300942417604886
+-- Withdrawing NFT: #515# with LSU: 735 and XRD claim: 841.962924464967208404
+-- Withdrawing NFT: #566# with LSU: 700 and XRD claim: 770.142860197660553094
+-- Withdrawing NFT: #183# with LSU: 700 and XRD claim: 824.167205648287932664
+-- Withdrawing NFT: #696# with LSU: 700 and XRD claim: 761.804946324493172793
+-- Withdrawing NFT: #662# with LSU: 700 and XRD claim: 762.117385332303569493
+-- Withdrawing NFT: #229# with LSU: 700 and XRD claim: 808.647243655347700877
+-- Withdrawing NFT: #413# with LSU: 700 and XRD claim: 808.411956772000169556
+-- Withdrawing NFT: #257# with LSU: 700 and XRD claim: 808.574711806851452135
+-- Withdrawing NFT: #244# with LSU: 685 and XRD claim: 791.31908843416170751
+-- Withdrawing NFT: #298# with LSU: 682 and XRD claim: 787.766446876515253312
+-- Withdrawing NFT: #207# with LSU: 650 and XRD claim: 765.298119530552823303
+-- Withdrawing NFT: #196# with LSU: 600 and XRD claim: 706.429033412817921245
+-- Withdrawing NFT: #524# with LSU: 600 and XRD claim: 685.944938706680324252
+-- Withdrawing NFT: #459# with LSU: 600 and XRD claim: 698.460100800445419152
+-- Withdrawing NFT: #587# with LSU: 600 and XRD claim: 655.595701254932040841
+-- Withdrawing NFT: #734# with LSU: 600 and XRD claim: 652.242783210013799024
+-- Withdrawing NFT: #1179# with LSU: 600 and XRD claim: 641.71806626674902975
+-- Withdrawing NFT: #289# with LSU: 600 and XRD claim: 693.060285519289611171
+-- Withdrawing NFT: #241# with LSU: 600 and XRD claim: 693.126208847440864412
+-- Withdrawing NFT: #319# with LSU: 600 and XRD claim: 693.042532732788115974
+-- Withdrawing NFT: #398# with LSU: 595 and XRD claim: 687.158129294447503212
+-- Withdrawing NFT: #896# with LSU: 590 and XRD claim: 637.013194893331785244
+-- Withdrawing NFT: #1141# with LSU: 583.3885 and XRD claim: 624.262019234179812106
+-- Withdrawing NFT: #1022# with LSU: 576.73271 and XRD claim: 618.703722594844318725
+-- Withdrawing NFT: #1037# with LSU: 575 and XRD claim: 616.480135660161026981
+-- Withdrawing NFT: #519# with LSU: 571 and XRD claim: 652.844187605088773417
+-- Withdrawing NFT: #148# with LSU: 550 and XRD claim: 647.571559607640596288
+-- Withdrawing NFT: #29# with LSU: 550 and XRD claim: 647.60870494427868816
+-- Withdrawing NFT: #1158# with LSU: 550 and XRD claim: 588.398843604941970904
+-- Withdrawing NFT: #1159# with LSU: 550 and XRD claim: 588.398843604941970904
+-- Withdrawing NFT: #412# with LSU: 550 and XRD claim: 635.180823178000052887
+-- Withdrawing NFT: #943# with LSU: 540 and XRD claim: 583.46328160323005959
+-- Withdrawing NFT: #760# with LSU: 527 and XRD claim: 572.455574631629082194
+-- Withdrawing NFT: #198# with LSU: 525 and XRD claim: 618.125404236215926114
+-- Withdrawing NFT: #368# with LSU: 520.78051 and XRD claim: 601.442995951270322453
+-- Withdrawing NFT: #89# with LSU: 520 and XRD claim: 612.284430416944022573
+-- Withdrawing NFT: #816# with LSU: 512 and XRD claim: 554.229731858697109135
+-- Withdrawing NFT: #138# with LSU: 511 and XRD claim: 601.671537225791881115
+-- Withdrawing NFT: #738# with LSU: 510 and XRD claim: 553.628214414211425811
+-- Withdrawing NFT: #781# with LSU: 510 and XRD claim: 552.059517151148921203
+-- Withdrawing NFT: #203# with LSU: 510 and XRD claim: 600.464678400895196507
+-- Withdrawing NFT: #858# with LSU: 510 and XRD claim: 552.064771968624063188
+-- Withdrawing NFT: #735# with LSU: 510 and XRD claim: 554.581242708788637667
+-- Withdrawing NFT: #563# with LSU: 510 and XRD claim: 564.015511690570679303
+-- Withdrawing NFT: #476# with LSU: 510 and XRD claim: 593.67241957179785519
+-- Withdrawing NFT: #234# with LSU: 510 and XRD claim: 589.157277520324580412
+-- Withdrawing NFT: #475# with LSU: 508 and XRD claim: 591.344292436222252487
+-- Withdrawing NFT: #820# with LSU: 507 and XRD claim: 548.764477734784115853
+-- Withdrawing NFT: #808# with LSU: 505 and XRD claim: 546.660988445735803281
+-- Withdrawing NFT: #998# with LSU: 504 and XRD claim: 541.986632517952144393
+-- Withdrawing NFT: #612# with LSU: 503 and XRD claim: 549.084708702857098573
+-- Withdrawing NFT: #964# with LSU: 503 and XRD claim: 543.007201829928242922
+-- Withdrawing NFT: #504# with LSU: 503 and XRD claim: 579.670385700353821893
+-- Withdrawing NFT: #176# with LSU: 502 and XRD claim: 591.056223496427840223
+-- Withdrawing NFT: #910# with LSU: 502 and XRD claim: 542.404754379299060777
+-- Withdrawing NFT: #994# with LSU: 502 and XRD claim: 540.423991208706200966
+-- Withdrawing NFT: #460# with LSU: 502 and XRD claim: 584.378284336372618231
+-- Withdrawing NFT: #1125# with LSU: 502 and XRD claim: 537.301529187190085831
+-- Withdrawing NFT: #1185# with LSU: 501.21 and XRD claim: 536.042858846374055547
+-- Withdrawing NFT: #166# with LSU: 501 and XRD claim: 589.878820660777898615
+-- Withdrawing NFT: #45# with LSU: 501 and XRD claim: 589.912642282133956961
+-- Withdrawing NFT: #16# with LSU: 501 and XRD claim: 589.920902737194382384
+-- Withdrawing NFT: #26# with LSU: 501 and XRD claim: 589.912656685606386064
+-- Withdrawing NFT: #335# with LSU: 501 and XRD claim: 578.620796200182550356
+-- Withdrawing NFT: #774# with LSU: 501 and XRD claim: 543.698675161742054289
+-- Withdrawing NFT: #817# with LSU: 501 and XRD claim: 542.322452463295279469
+-- Withdrawing NFT: #708# with LSU: 501 and XRD claim: 545.401283170362414115
+-- Withdrawing NFT: #1102# with LSU: 501 and XRD claim: 536.571605560737346609
+-- Withdrawing NFT: #800# with LSU: 501 and XRD claim: 542.81401013759560927
+-- Withdrawing NFT: #446# with LSU: 501 and XRD claim: 583.228746573251915647
+-- Withdrawing NFT: #491# with LSU: 501 and XRD claim: 583.114960455326277327
+-- Withdrawing NFT: #602# with LSU: 501 and XRD claim: 547.402403675919964239
+-- Withdrawing NFT: #353# with LSU: 501 and XRD claim: 578.605634761132694713
+-- Withdrawing NFT: #513# with LSU: 501 and XRD claim: 570.469375436407883485
+-- Using recovered 100987.95976 LSU from NFTs as new validator rewards
+-- Claiming XRD reward: 129000
+-- Day: 51, epoch 102923, LSU locked in contract: 1002505.10026, new validator rewards: 129000, pool liqudity: 130387.609087132559507503
+No more NFTs to withdraw, all NFTs (except one with the most LSU) have been withdrawn
